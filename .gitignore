@@ -3,9 +3,7 @@ node_modules/
 
 # Build output
 dist/
-# Large demonstration videos
-# Large videos
-public/assets/videos/*.mov
+
 # Private environment variables
 .env
 .env.*
