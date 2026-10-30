@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+# Large demonstration videos
+# Large videos
+public/assets/videos/*.mov
+# Private environment variables
+.env
+.env.*
+!.env.example
+
+# API keys and secrets
+secrets/
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+
+# Debug logs
+npm-debug.log*
